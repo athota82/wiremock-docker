@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "DELETE",
+    "url": "/1/boards/6ccd9524bed4e7153e7c666e?key=123456&token=123456",
+    "queryParameters" : {
+      "key" : {
+        "equalTo" : "123456"
+      },
+      "token":{
+      	 "equalTo" : "123456"
+      	}
+    },
+    "headers" : {
+      "Content-Type" : {
+        "equalTo" : "application/json; charset=UTF-8"
+      }
+
+    }
+    
+},
+  "response": {
+  	  "headers": {
+            "Content-Type": "application/json"
+        },
+    "status": 200,
+    "bodyFileName": "trello_delete_board.json"
+  }
+}

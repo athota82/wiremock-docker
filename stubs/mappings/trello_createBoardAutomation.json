@@ -1,0 +1,31 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/1/boards",
+    "queryParameters" : {
+      "key" : {
+        "equalTo" : "123456"
+      },
+      "token":{
+      	 "equalTo" : "123456"
+      	},
+      	"name":{
+      			 "equalTo" : "VapasiBoard"
+      	}
+    },
+    "headers" : {
+      "Content-Type" : {
+        "equalTo" : "application/json;charset=UTF-8"
+      }
+      
+    }
+    
+},
+  "response": {
+  	  "headers": {
+            "Content-Type": "application/json"
+        },
+    "status": 200,
+    "bodyFileName": "trello_createBoard.json"
+  }
+}

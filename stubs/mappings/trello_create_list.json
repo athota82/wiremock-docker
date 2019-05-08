@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/1/lists?name=ListCreatedNow&idBoard=6ccd9524bed4e7153e7c666e&key=123456&token=123456",
+    "queryParameters" : {
+      "key" : {
+        "equalTo" : "123456"
+      },
+      "token":{
+      	 "equalTo" : "123456"
+      	},
+      	"name":{
+      			 "equalTo" : "ListCreatedNow"
+      	},
+        "idBoard":{
+           "equalTo" : "6ccd9524bed4e7153e7c666e"
+        }
+    },
+    "headers" : {
+      "Content-Type" : {
+        "equalTo" : "application/json; charset=UTF-8"
+      }
+
+    }
+    
+},
+  "response": {
+  	  "headers": {
+            "Content-Type": "application/json"
+        },
+    "status": 200,
+    "bodyFileName": "trello_createList.json"
+  }
+}

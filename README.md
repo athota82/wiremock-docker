@@ -9,7 +9,11 @@ docker run -d --name wiremock-container -it --rm -p 8084:8080 wiremock_sample
 ```
 
 
+
+
+
 * Access [http://localhost:8084/hello] to show contents of the hello.json
+* Mocked some of the trello API's
 
 
 ***************************************** Extras *************************************
@@ -18,4 +22,8 @@ docker run -d --name wiremock-container -it --rm -p 8084:8080 wiremock_sample
 
  `docker run -d --name wiremock-container   -p 8084:8080   -v $PWD/recordings:/home/wiremock   -u $(id -u):$(id -g)   wiremock_sample     --proxy-all="http://wiremock.org"     --record-mappings --verbose`
 
+
+Run in CI or in one command
+
+			sh start_mockserver.sh
 
